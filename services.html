@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <nav>
+    <img src="imagini/logo.png" alt="">
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Acasa</a></li>
+            <li><a href="about.html">Despre</a></li>
+            <li><a href="services.html">Servicii</a></li>
+            <li><a href="pircing.html">Oferte</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+   </nav>
+   <div class="service">
+    <div class="max-width">
+        <h2>Serviciile si media</h2>
+        <div class="content-item">
+            <div class="card">
+                <div class="box">
+                    <i class="fa fa-desktop"></i>
+                    <h3>Crearea site-urilor web</h3>
+                    <p>In procesul de creare a site-urilor web incepem prin a studia
+                        concurenta si a intelege perfect domeniul de activitate pentru 
+                        a putea in final sa realizam un website bine definit potrivit  afacerii tale.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fa-regular fa-lightbulb"></i>
+                    <h3>Audit SEO</h3>
+                    <p>Auditul SEO poate fi realizat de către un specialist SEO sau o agenție specializată în SEO,
+                         care analizează factori precum optimizarea on-page, structura site-ului, conținutul, backlink-urile, viteză de încărcare a paginilor,
+                         experiența utilizatorului și alți factori critici. 
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fa-brands fa-instagram"></i>
+                    <h3>Administrare Social Media</h3>
+                    <p>Administrarea social media include următoarele sarcini: crearea și postarea de conținut pe platformele sociale, răspunsul la comentariile și mesajele primite,
+                         monitorizarea feedback-ului și a sentimentului publicului, analiza performanței și raportarea rezultatelor.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fa-brands fa-youtube"></i>
+                    <h3>Campanii Youtube</h3>
+                    <p>Campaniile Youtube sunt o formă de publicitate online care utilizează platforma Youtube, una dintre cele mai
+                         mari și populare platforme de videoclipuri din lume, pentru a ajunge la publicul țintă și a promova un produs,
+                          serviciu sau brand. Aceste campanii pot fi create și gestionate prin intermediul platformei Google Ads, care permite afișarea
+                         anunțurilor video pe canalul Youtube  videoclipurilor preferate ale utilizatorilor.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<footer>
+    <div class="social">
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+</div>
+    <div class="flex">
+        <div class="logo">
+            <a href="index.html"><img src="imagini/logo.png" alt=""></a>
+        </div>
+        <ul>
+            <li><a class="active" href="index.html">Acasa</a></li>
+            <li><a href="about.html">Despre</a></li>
+            <li><a href="services.html">Servicii</a></li>
+            <li><a href="pircing.html">Oferte</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <hr>
+    <p class="copyright">     
+        Copyright © 2021 agentie de publicitate
+    </p>
+</footer>
+<script>
+    window.addEventListener("scroll",function(){
+        let nav = document.querySelector("nav");
+        nav.classList.toggle("sticky",window.scrollY > 0)
+    })
+</script>
+</body>
+</html>
